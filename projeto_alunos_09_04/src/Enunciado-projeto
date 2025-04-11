@@ -1,0 +1,17 @@
+Você foi contratado para desenvolver um sistema simples para registrar notas de alunos em uma turma.
+
+1. Crie uma classe chamada Aluno com os seguintes atributos:
+* String nome
+* double[] notas (vetor com 3 notas)
+
+2. Na classe principal (Main ou App):
+* Solicite ao usuário o número de alunos da turma.
+* Para cada aluno:
+* Solicite o nome.
+* Solicite as 3 notas (armazenadas em um vetor).
+
+3. Armazene os objetos Aluno em um vetor de objetos (ex: Aluno[] turma).
+
+4. Após o cadastro:
+* Calcule a média das notas de cada aluno.
+* Mostre um relatório com o nome, as notas e a média de cada aluno.
