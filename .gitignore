@@ -1,0 +1,56 @@
+# === ECLIPSE ===
+.metadata/
+*.log
+*.lock
+*.tmp
+*.bak
+*.swp
+.settings/
+.project
+.classpath
+bin/
+target/
+build/
+
+# === JAVA ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === IDEs e ferramentas ===
+.idea/
+.vscode/
+.gradle/
+*.iml
+*.ipr
+*.iws
+
+# === SISTEMA OPERACIONAL ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === BACKUPS e ZIPS ===
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# === TESTE TEMPORÁRIO ===
+*.out
+*.tmp
+*.temp
+*.log.*
+
+# === MAVEN / OUTROS ===
+.mvn/
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
