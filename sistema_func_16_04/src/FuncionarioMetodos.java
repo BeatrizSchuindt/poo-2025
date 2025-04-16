@@ -4,6 +4,13 @@ public class FuncionarioMetodos {
 	Funcionario[] funcionario = new Funcionario[10];
 	int contador=0, contador_matricula=0;
 	
+	/* DICA DO PROFESSOR
+	 * -> Ele usou um array de 10 posições para guardar os dados de funcionários
+	 * -> Ao invés dele usar a lógica de C (de reordenar o vetor passa todos os sucessores uma posição pra trás)
+	 * -> Em cadastrarFuncionario dele, ele fez um for com o i de 0 até 10, fazendo um if (funcionario[i] == null)
+	 * -> Por exemplo, se excluí a posição 4, essa posição fica null. Aí na próxima verificação de cadastrarFuncionário
+	 * ele vai adicionar o funcionário novo na posição 4.
+	 * */
 	//função de ler
 	public void cadastrarFuncionario() {
 		//verificar se atingiu os 10
