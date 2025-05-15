@@ -1,0 +1,24 @@
+Ana Beatriz Schuindt
+Respostas - FJ11 - Cap. 5 
+
+1. Para garantir que os atributos da classe Conta não sejam acessados diretamente precisamos utilizar o modificador de acesso 'private' nesses atributos, encapsulando eles e permitindo modificação deles só com getters e setters.
+
+2. O console retorna que esses atributos não são visíveis para minha classe TesteConta 
+Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+	The field Conta.titular is not visible
+	The field Conta.numero is not visible
+	The field Conta.agencia is not visible
+	The field Conta.saldo is not visible
+	The field Conta.dataDeAbertura is not visible
+	The field Conta.saldo is not visible
+	The field Conta.saldo is not visible
+
+	at TesteConta.main(TesteConta.java:12)
+
+3, 4, 5, 6, 7 -> Implementados no programa
+
+
+DESAFIO:
+1. Porque x não é static, para compilar precisaria criar a instância de um novo objeto Teste dentro de main
+
+2. Colocando private no construtor, que não permite criar o objeto com new e criar um get para instanciar o novo objeto dentro da própria classe FabricaDeCarro
